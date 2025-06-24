@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="number" name="numero" id="numero">
-    <button id="tabuada">Calcule a tabuada deste número</button> 
+    <form action="" id="tabuadaform">
+    <label for="numero">Digite um número</label>
+    <input type="number" name="numero" id="numero" required>
+    <button id="tabuada" type="submit">Calcule a tabuada deste número</button> 
+    </form>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
 </body>
 </html>
